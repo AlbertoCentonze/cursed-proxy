@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ast-grep:*)",
+      "Bash(python -m pytest tests/test_deploy.py -v)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(python -m pytest tests/test_deploy.py::test_deploy -v -s)"
+    ],
+    "deny": []
+  }
+}
